@@ -13,6 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['fichier_emails'])) {
     separerParDomaine($validesUniques);
     echo"<h3>Traitement terminé. Les fichiers ont été générés.</h3>";
     echo"<a href='invalides.txt' download>Télécharger invalides.txt</a><br>";
+    echo "<a href='valides.txt' download>Télécharger valides.txt</a><br>";
 }
 
 ?>
