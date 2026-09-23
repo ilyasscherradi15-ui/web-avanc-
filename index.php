@@ -48,5 +48,8 @@ function separerValidesInvalides($emails){
         <input type="file" name="fichier_emails" accept=".txt" required>
         <button type="submit">Traiter</button>
     </form>
+
+    <br>
+    <a href="ajouter.php">Ajouter une adresse manuellement</a>
 </body>
 </html>
